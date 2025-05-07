@@ -31,26 +31,26 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
  
 <h2>Setting up Google Drive API</h2>
 
-<br />1. Go to Google Cloud Console<br />
-<br />2. Select your project (or create a new one)<br />
-<br />3. In the left sidebar:<br />
-   - <br />Go to IAM & Admin → Service Accounts<br />
-<br />4. Click Create Service Account<br />
-   - <br />Name it gdrive-uploader or similar<br />
-   - <br />Click Create and Continue<br />
-   - <br />Skip permissions → Done<br />
-<br />5. In the service account list:<br />
-   - <br />Click your new service account<br />
-   - <br />Go to the “Keys” tab<br />
-   - <br />Click “Add Key” → “Create new key” → JSON<br/>
-<br />
-Then, Copy the entire JSON file content.<br />
+<b>1. Go to Google Cloud Console</b>
+<b>2. Select your project (or create a new one)</b>
+<b>3. In the left sidebar:</b>
+   - <b>Go to IAM & Admin → Service Accounts</b>
+<b>4. Click Create Service Account</b>
+   - <b>Name it gdrive-uploader or similar</b>
+   - <b>Click Create and Continue</b>
+   - <b>Skip permissions → Done</b>
+<b>5. In the service account list:</b>
+   - <b>Click your new service account</b>
+   - <b>Go to the “Keys” tab</b>
+   - <b>Click “Add Key” → “Create new key” → JSON</b>
 
-<br />1. Go to GitHub repo → Settings → Secrets → Actions<br />
-<br />2. Add a new secret:<br />
-   - <br />Name: GDRIVE_CREDS_JSON<br />
-   - <br />Value: paste the full JSON (no formatting or quotes)<br />
-<br />4. Click Save<br/>
+<b>Then, Copy the entire JSON file content.</b>
+
+<b>1. Go to GitHub repo → Settings → Secrets → Actions</b>
+<b>2. Add a new secret:</b>
+   - <b>Name: GDRIVE_CREDS_JSON</b>
+   - <b>Value: paste the full JSON (no formatting or quotes)</b>
+<b>4. Click Save</b>
 
 <h2>Output:</h2>
 
