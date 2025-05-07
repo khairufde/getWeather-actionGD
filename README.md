@@ -55,6 +55,27 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
    
 <br />4. Click Save<br/>
 
+<h2>Setting Google Drive</h2>
+
+<br />1. Open <a href="https://drive.google.com/">Google Drive</a><br/>
+   - <b>Create a new folder (or use an existing one)</b>
+   
+<br />2. Find the Service Account Email<br/>
+   - <b>Open the service_account.json file you downloaded earlier<br/>
+   - <b>Look for the line:<br/>
+   <p align="center">
+   - <b>"client_email": "something@your-project.iam.gserviceaccount.com"<br/>
+
+   - <b>Copy that email address (this is your service account’s identity)<br/>
+   
+<br />3. Share the Folder<br/>
+   - <b>In Google Drive, right-click the folder → Click Share</b>
+   - <b>In the “Add people and groups” box: Paste the service account’s email</b>
+   - <b>Set Editor as the permission<br/>
+   - <b>Click Send</b>
+
+<br />Then, Copy the entire JSON file content.<br/>
+
 <h2>Output:</h2>
 
 <p align="center">
