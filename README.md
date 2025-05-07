@@ -70,7 +70,8 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
    
 <br />3. Share the Folder<br/>
    - <b>In Google Drive, right-click the folder → Click Share</b>
-   - <b>In the “Add people and groups” box: Paste the service account’s email</b>
+   - <b>In the “Add people and groups” box</b>
+   - <b>Paste the service account’s email</b>
    - <b>Set Editor as the permission<br/>
    - <b>Click Send</b>
 
