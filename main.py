@@ -10,7 +10,7 @@ from googleapiclient.http import MediaFileUpload
 
 def get_weather_data():
     city_name = 'london'
-    WEATHER_API_KEY = os.environ['WEATHER_API_KEY']
+    WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
 
     coor_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name}&limit=5&appid={WEATHER_API_KEY}'
     coor_req = requests.get(coor_url)
@@ -65,7 +65,7 @@ def get_weather_data():
 
 
 def upload_to_drive_service(filename, folder_id):
-    creds_json = os.environ['GDRIVE_CREDS_JSON']
+    creds_json = os.getenv('GDRIVE_CREDS_JSON')
     creds = service_account.Credentials.from_service_account_info(json.loads(creds_json))
     service = build('drive', 'v3', credentials=creds)
 
