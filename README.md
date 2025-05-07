@@ -31,7 +31,7 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
  
 <h2>Setting up Google Drive API</h2>
 
-<br />1. Go to Google Cloud Console<br/>
+<br />1. Go to <a href="https://console.cloud.google.com/">Google Cloud Console</a><br/>
 <br />2. Select your project (or create a new one)<br/>
 <br />3. In the left sidebar:<br/>
    - <b>Go to IAM & Admin → Service Accounts<br/>
