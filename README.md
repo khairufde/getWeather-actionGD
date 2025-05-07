@@ -1,7 +1,7 @@
 <h1>Fetch Weather Data From <a href="https://openweathermap.org/">OpenWeatherMapAPI</a>, Automate it to Run Daily With Github Actions, and uploads them as a CSV file to a specified Google Drive folder — using a service account</h1>
 
 <h2>Description</h2>
-This project automates the process of collecting 5-day weather forecasts in London, schedule the script to run at 6am every day, and storing weather data into csv in github repository.
+This project automates the process of collecting 5-day weather forecasts in London, schedule the script to run at 6am UTC every day, and storing weather data into csv in Google Drive.
 <br />
 
 <h2>Languages and Utilities Used</h2>
