@@ -31,7 +31,6 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
  
 <h2>Setting up Google Drive API</h2>
 
-<p align="center">
 <br />1. Go to Google Cloud Console<br />
 <br />2. Select your project (or create a new one)<br />
 <br />3. In the left sidebar:<br />
