@@ -81,12 +81,12 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
 <br />
 The CSV file will be in a folder created in Google Drive<br/>
 <br />
-<img src="https://i.imgur.com/r6YtGdH.png" height="80%" width="80%" alt="ActionsTabs">
+<img src="https://i.imgur.com/r6YtGdH.png" height="90%" width="90%" alt="ActionsTabs">
 <br />
 <br />
 Here is the Example of the output in csv format<br/>
 <br />
-<img src="https://i.imgur.com/IaUPrPB.png" height="50%" width="50%" alt="CSVOutput">
+<img src="https://i.imgur.com/IaUPrPB.png" height="80%" width="80%" alt="CSVOutput">
 <br />
 
 
