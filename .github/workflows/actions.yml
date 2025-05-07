@@ -9,10 +9,6 @@ jobs:
   run-weather-script:
     runs-on: ubuntu-latest
 
-    env:
-      API_KEY: ${{ secrets.WEATHER_API_KEY }}
-      GDRIVE_CREDS_JSON: ${{ secrets.GDRIVE_CREDS_JSON }}
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -20,10 +16,13 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12'
+        python-version: 3.12
 
     - name: Install dependencies
       run: pip install -r requirements.txt
 
     - name: Run script
+      env:
+        API_KEY: ${{ secrets.WEATHER_API_KEY }}
+        GDRIVE_CREDS_JSON: ${{ secrets.GDRIVE_CREDS_JSON }}
       run: python main.py
