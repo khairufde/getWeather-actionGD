@@ -31,9 +31,9 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
  
 <h2>Setting up Google Drive API</h2>
 
-<b>1. Go to Google Cloud Console</b>
-<b>2. Select your project (or create a new one)</b>
-<b>3. In the left sidebar:</b>
+<br />1. Go to Google Cloud Console<br/>
+<br />2. Select your project (or create a new one)<br/>
+<br />3. In the left sidebar:<br/>
    - <b>Go to IAM & Admin → Service Accounts</b>
 <b>4. Click Create Service Account</b>
    - <b>Name it gdrive-uploader or similar</b>
