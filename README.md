@@ -30,6 +30,8 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
 <br />
 
 <h2>Output:</h2>
+
+<p align="center">
 <br />
 The CSV file will be in a folder created in Google Drive<br/>
 <br />
