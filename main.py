@@ -91,7 +91,7 @@ if __name__ == "__main__":
         weather_df.to_csv(output_file, index=False)
         print(f"CSV saved as {output_file}")
 
-        # Replace with your actual Drive folder ID
+       # Replace with your actual Drive folder ID (after the last “/” from your folder link in google drive)
         folder_id = "1SWgsW72IGuHMnhoH6_iH28AVSfTzvu0Q"
         upload_to_drive_service(output_file, folder_id)
     else:
